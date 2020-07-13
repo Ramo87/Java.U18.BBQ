@@ -2,9 +2,10 @@ package edu.bbq.u18.chat.common.helpers;
 
 import java.util.logging.Level;
 
+import edu.bbq.u18.chat.common.knowledge.inheritance.testInterface.TestInterface;
 import edu.bbq.u18.chat.common.logging.LOGGER;
 
-public abstract class ConsolePrint 
+public abstract class ConsolePrint implements Showable
 {
 	private static boolean LOG = false;
 	
@@ -19,6 +20,8 @@ public abstract class ConsolePrint
 		
 		if(LOG)LOGGER.log(Level.INFO, str);
 	}
+	/*********************************************************************************************************/
+	private ConsolePrint(){}
 	/*********************************************************************************************************/
 	public static void showln(StringBuilder str)
 	{

@@ -2,16 +2,15 @@ package edu.bbq.u18.chat.common.knowledge.inheritance.test;
 
 import edu.bbq.u18.chat.common.helpers.ConsolePrint;
 
+public class C extends B {
 
-/* java.lang.Object 
- * edu.bbq.u18.chat.common.knowledge.inheritance.test.A
- * edu.bbq.u18.chat.common.knowledge.inheritance.test.B
- * edu.bbq.u18.chat.common.knowledge.inheritance.test.C
- */
-public class C extends B
-{
+	public C() {
 
-//	public C() 
+	}
+
+	public C(String c){
+		super(c);
+	}
 //	{
 //		// TODO Auto-generated constructor stub
 //		ConsolePrint.showln("Konstruktor C.C()");
@@ -19,7 +18,7 @@ public class C extends B
 //		System.out.println((this instanceof A));
 //		System.out.println((this instanceof B));
 //	}
-	public C(String param1) 
+	public C(String param1, String param2)
 	{
 		super(param1);
 		// TODO Auto-generated constructor stub
@@ -27,6 +26,24 @@ public class C extends B
 		System.out.println((this instanceof Object));
 		System.out.println((this instanceof A));
 		System.out.println((this instanceof B));
+		System.out.println((this instanceof C));
+
+	}
+
+	public void publicVisibleMethodFromClassC(){
+		System.out.println("public visible Method from class C");
+	}
+
+	void defaultVisibleMethodFromClassC(){
+		System.out.println("default visible Method from class C");
+	}
+
+	protected void protectedVisibleMethodFromClassC(){
+		System.out.println("protected visible Method from class C");
+	}
+
+	private void privateVisibleMethodFromClassC(){
+		System.out.println("private visible Method from class C");
 	}
 
 }
