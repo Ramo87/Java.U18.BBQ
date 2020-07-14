@@ -4,15 +4,8 @@
 package edu.bbq.u18.chat.client;
 
 
-import java.io.IOException;
-import java.util.logging.FileHandler;
-import java.util.logging.Level;
-
 import edu.bbq.u18.chat.common.helpers.ConsolePrint;
-import edu.bbq.u18.chat.common.helpers.Debug;
-import edu.bbq.u18.chat.common.knowledge.DataTypes;
 import edu.bbq.u18.chat.common.lib.PropertiesHandler;
-import edu.bbq.u18.chat.common.logging.LOGGER;
 
 /**
  * @author debian

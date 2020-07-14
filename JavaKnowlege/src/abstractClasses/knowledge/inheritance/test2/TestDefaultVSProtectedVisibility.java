@@ -1,6 +1,6 @@
-package edu.bbq.u18.chat.common.knowledge.inheritance.test2;
+package abstractClasses.knowledge.inheritance.test2;
 
-import edu.bbq.u18.chat.common.knowledge.inheritance.test.C;
+import abstractClasses.knowledge.inheritance.test.C;
 
 public class TestDefaultVSProtectedVisibility extends C {
 

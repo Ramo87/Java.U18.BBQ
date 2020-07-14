@@ -1,4 +1,4 @@
-package edu.bbq.u18.chat.common.knowledge.inheritance.testInterface;
+package abstractClasses.knowledge.inheritance.testInterface;
 
 
 public interface TestInterface {

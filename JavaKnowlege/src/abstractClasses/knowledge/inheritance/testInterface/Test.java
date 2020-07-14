@@ -1,4 +1,4 @@
-package edu.bbq.u18.chat.common.knowledge.inheritance.testInterface;
+package abstractClasses.knowledge.inheritance.testInterface;
 
 /**
  * Created by Loky on 13/07/2020.

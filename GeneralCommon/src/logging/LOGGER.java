@@ -1,4 +1,4 @@
-package edu.bbq.u18.chat.common.logging;
+package logging;
 
 import java.io.File;
 import java.util.logging.Level;

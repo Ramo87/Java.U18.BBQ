@@ -1,4 +1,4 @@
-package edu.bbq.u18.chat.common.knowledge.inheritance.test;
+package abstractClasses.knowledge.inheritance.test;
 
 import edu.bbq.u18.chat.common.helpers.ConsolePrint;
 

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GeneralCommon/GeneralCommon.iml" filepath="$PROJECT_DIR$/GeneralCommon/GeneralCommon.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.U18.BBQ.iml" filepath="$PROJECT_DIR$/Java.U18.BBQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaKnowlege/JavaKnowlege.iml" filepath="$PROJECT_DIR$/JavaKnowlege/JavaKnowlege.iml" />
     </modules>
   </component>
 </project>

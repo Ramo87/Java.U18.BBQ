@@ -1,9 +1,8 @@
 package edu.bbq.u18.chat.client;
 
 import edu.bbq.u18.chat.common.helpers.Debug;
-import edu.bbq.u18.chat.common.knowledge.DataTypes;
+import abstractClasses.knowledge.DataTypes;
 import edu.bbq.u18.chat.common.lib.ArgumentsHandler;
-import edu.bbq.u18.chat.common.lib.PropertiesHandler;
 
 public abstract class Arguments 
 {

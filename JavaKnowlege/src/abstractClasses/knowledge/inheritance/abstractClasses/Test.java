@@ -1,4 +1,4 @@
-package edu.bbq.u18.chat.common.knowledge.inheritance.abstractClasses;
+package abstractClasses.knowledge.inheritance.abstractClasses;
 
 /**
  * Created by Loky on 13/07/2020.
@@ -10,7 +10,7 @@ public Test(){
 }
 public static void main(String[] args){
     new Test();
-    TestAbstractClass.printStatic();
+    printStatic();
 }
     @Override
     void printAbstractTAC1(){

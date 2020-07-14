@@ -1,10 +1,9 @@
-package edu.bbq.u18.chat.common.helpers;
-
-import java.util.logging.Level;
 
 import logging.LOGGER;
 
-public abstract class ConsolePrint implements Showable
+import java.util.logging.Level;
+
+public abstract class ConsolePrint
 {
 	private static boolean LOG = false;
 	
@@ -17,7 +16,7 @@ public abstract class ConsolePrint implements Showable
 	{
 		System.out.println(str);
 		
-		if(LOG)LOGGER.log(Level.INFO, str);
+		if(LOG) LOGGER.log(Level.INFO, str);
 	}
 	/*********************************************************************************************************/
 	private ConsolePrint(){}

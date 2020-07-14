@@ -1,4 +1,4 @@
-package edu.bbq.u18.chat.common.knowledge;
+package abstractClasses.knowledge;
 
 import java.util.HashSet;
 
