@@ -9,7 +9,7 @@ import java.util.Properties;
 public abstract class Configurations 
 {
 	/*************************************************************************************/
-	static void load(){}
+	static public void load(){}
 	/*************************************************************************************/
 	private static Properties properties = new Properties();
 	
