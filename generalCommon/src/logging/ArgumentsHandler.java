@@ -1,8 +1,13 @@
-package edu.bbq.u18.chat.common.lib;
+package logging;
 
 public abstract class ArgumentsHandler 
 {
 	/**********************************************************************************/
+	public static void main(String []args){
+
+	}
+	/**********************************************************************************/
+
 	public static String[] getPropertiesFromAppCallBySystem()
 	{
 		String appCall =  System.getProperty("sun.java.command");

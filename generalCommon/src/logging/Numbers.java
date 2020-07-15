@@ -1,6 +1,6 @@
-package edu.bbq.u18.chat.common.lib;
+package logging;
 
-public abstract class Numbers 
+public final class Numbers
 {
 	/********************************************************************************/
 	public static boolean isNumeric(String arg)

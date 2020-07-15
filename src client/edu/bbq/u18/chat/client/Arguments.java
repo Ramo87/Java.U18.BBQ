@@ -2,14 +2,14 @@ package edu.bbq.u18.chat.client;
 
 import edu.bbq.u18.chat.common.helpers.Debug;
 import abstractClasses.knowledge.DataTypes;
-import edu.bbq.u18.chat.common.lib.ArgumentsHandler;
+import logging.ArgumentsHandler;
 
 public abstract class Arguments 
 {
 	static
 	{
 			
-		handleArguments(ArgumentsHandler.getPropertiesFromAppCallBySystem());
+		handleArguments( ArgumentsHandler.getPropertiesFromAppCallBySystem());
 		
 	}
 			

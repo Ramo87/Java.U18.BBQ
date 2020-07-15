@@ -3,7 +3,8 @@ package abstractClasses.knowledge;
 import java.util.HashSet;
 
 import edu.bbq.u18.chat.common.helpers.Debug;
-import edu.bbq.u18.chat.common.lib.Numbers;
+import logging.Numbers;
+
 
 public abstract class DataTypes 
 {

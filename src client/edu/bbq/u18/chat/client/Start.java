@@ -2,8 +2,6 @@
  * 
  */
 package edu.bbq.u18.chat.client;
-
-
 import edu.bbq.u18.chat.common.helpers.ConsolePrint;
 import edu.bbq.u18.chat.common.lib.PropertiesHandler;
 
@@ -20,8 +18,9 @@ public class Start
 	{
 		// TODO Auto-generated method stub
 		/* Für lange Zeit Kommentar! */
-		
-		
+
+
+
 		SETTINGS.load();
 		Configurations.load();
 		Arguments.load();
@@ -31,10 +30,7 @@ public class Start
 		PropertiesHandler.showProperties(System.getProperties(), PropertiesHandler.SHOW_WHILE_WIDTH_ITERATOR_STYLE);
 		
 		//SystemInfos.showProperties();
-		
-	
 
 	}
 	/**********************************************************************************/
-	
 }

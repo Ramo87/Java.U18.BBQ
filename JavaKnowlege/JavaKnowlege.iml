@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Java.U18.BBQ" />
+    <orderEntry type="module" module-name="GeneralCommon" />
   </component>
 </module>
