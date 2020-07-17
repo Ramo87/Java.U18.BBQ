@@ -8,10 +8,8 @@ public abstract class Arguments
 {
 	static
 	{
-			
 		handleArguments( ArgumentsHandler.getPropertiesFromAppCallBySystem());
-		
-	}
+		}
 			
 	
 	/**********************************************************************************/
@@ -32,19 +30,9 @@ public abstract class Arguments
 					case "log": 
 						System.setProperty("global.log", "true");
 						break;
-					
-					case "showdatatypes":
-						SETTINGS.SHOWDATATYPES = true;
-						break;
+
 				}
-				//Test
-				if(SETTINGS.SHOWDATATYPES)
-				{
-					String dataType = DataTypes.getDataTypeAsString(args[i]);
-					
-					Debug.show(new StringBuilder(args[i]).append(" = ").append(dataType).append(" (Primitiver Datentype = ").append(DataTypes.isPrimitiveDataType(dataType)).append(")"));
-				
-				} 
+
 			}
 			Debug.show(new StringBuilder("Ich habe ").append(args.length).append(" Argument(e)!"));
 			

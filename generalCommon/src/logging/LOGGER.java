@@ -25,7 +25,7 @@ public final class LOGGER
 		
 	}
 	
-	private final static Logger APP_LOGGER = Logger.getLogger("edu.bbq.u18.chat.client");
+	private final static Logger APP_LOGGER = Logger.getLogger("edu.bbq.u18.chatServer.client");
 	/*************************************************************************************/
 	private LOGGER() {}
 	/*************************************************************************************/

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/generalCommon/GeneralCommon.iml" filepath="$PROJECT_DIR$/generalCommon/GeneralCommon.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.U18.BBQ.iml" filepath="$PROJECT_DIR$/Java.U18.BBQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaKnowlege/JavaKnowlege.iml" filepath="$PROJECT_DIR$/JavaKnowlege/JavaKnowlege.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiChatServer/MultiChatServer.iml" filepath="$PROJECT_DIR$/MultiChatServer/MultiChatServer.iml" />
     </modules>
   </component>
 </project>

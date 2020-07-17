@@ -17,8 +17,8 @@ public abstract class Configurations
 	{
 		try 
 		{
-																								//FileSystems.getDefault().getSeparator()
-																								//File.separator
+			//FileSystems.getDefault().getSeparator()
+			//File.separator
 		properties.load(new BufferedReader(new FileReader(new StringBuilder("conf client").append(System.getProperty("file.separator")).append("multichat.properties").toString())));
 		
 		
@@ -31,14 +31,14 @@ public abstract class Configurations
 		{
 			SETTINGS.APP_VERSION= (String)v;
 		}
-		});
+		}
+		);
 		
 		//PropertiesHandler.showProperties(System.getProperties());
 		
 		//ConsolePrint.showln(properties.size());
 		
 		//ConsolePrint.showln(properties.getProperty("global.debug"));
-		
 		}
 		catch(FileNotFoundException e)
 		{
@@ -48,7 +48,6 @@ public abstract class Configurations
 		{
 			e.printStackTrace();
 		}
-		
 	}
-		/*************************************************************************************/
+	/*************************************************************************************/
 }
